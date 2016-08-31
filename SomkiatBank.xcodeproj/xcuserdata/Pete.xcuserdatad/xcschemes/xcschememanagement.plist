@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SomkiatBank.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C107233B1D76C3B100C8FB9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C10723541D76C3B100C8FB9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C107235F1D76C3B100C8FB9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

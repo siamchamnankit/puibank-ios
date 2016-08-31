@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10723411D76C3B100C8FB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C10723401D76C3B100C8FB9D /* main.m */; };
+		C10723441D76C3B100C8FB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C10723431D76C3B100C8FB9D /* AppDelegate.m */; };
+		C10723471D76C3B100C8FB9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10723461D76C3B100C8FB9D /* ViewController.m */; };
+		C107234A1D76C3B100C8FB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10723481D76C3B100C8FB9D /* Main.storyboard */; };
+		C107234C1D76C3B100C8FB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C107234B1D76C3B100C8FB9D /* Assets.xcassets */; };
+		C107234F1D76C3B100C8FB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C107234D1D76C3B100C8FB9D /* LaunchScreen.storyboard */; };
+		C107235A1D76C3B100C8FB9D /* SomkiatBankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C10723591D76C3B100C8FB9D /* SomkiatBankTests.m */; };
+		C10723651D76C3B100C8FB9D /* SomkiatBankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C10723641D76C3B100C8FB9D /* SomkiatBankUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10723561D76C3B100C8FB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C10723341D76C3B100C8FB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107233B1D76C3B100C8FB9D;
+			remoteInfo = SomkiatBank;
+		};
+		C10723611D76C3B100C8FB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C10723341D76C3B100C8FB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107233B1D76C3B100C8FB9D;
+			remoteInfo = SomkiatBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C107233C1D76C3B100C8FB9D /* SomkiatBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomkiatBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10723401D76C3B100C8FB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C10723421D76C3B100C8FB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C10723431D76C3B100C8FB9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C10723451D76C3B100C8FB9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C10723461D76C3B100C8FB9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C10723491D76C3B100C8FB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C107234B1D76C3B100C8FB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C107234E1D76C3B100C8FB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C10723501D76C3B100C8FB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C10723551D76C3B100C8FB9D /* SomkiatBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomkiatBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10723591D76C3B100C8FB9D /* SomkiatBankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomkiatBankTests.m; sourceTree = "<group>"; };
+		C107235B1D76C3B100C8FB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C10723601D76C3B100C8FB9D /* SomkiatBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomkiatBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10723641D76C3B100C8FB9D /* SomkiatBankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomkiatBankUITests.m; sourceTree = "<group>"; };
+		C10723661D76C3B100C8FB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10723391D76C3B100C8FB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10723521D76C3B100C8FB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107235D1D76C3B100C8FB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C10723331D76C3B100C8FB9D = {
+			isa = PBXGroup;
+			children = (
+				C107233E1D76C3B100C8FB9D /* SomkiatBank */,
+				C10723581D76C3B100C8FB9D /* SomkiatBankTests */,
+				C10723631D76C3B100C8FB9D /* SomkiatBankUITests */,
+				C107233D1D76C3B100C8FB9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C107233D1D76C3B100C8FB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C107233C1D76C3B100C8FB9D /* SomkiatBank.app */,
+				C10723551D76C3B100C8FB9D /* SomkiatBankTests.xctest */,
+				C10723601D76C3B100C8FB9D /* SomkiatBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C107233E1D76C3B100C8FB9D /* SomkiatBank */ = {
+			isa = PBXGroup;
+			children = (
+				C10723421D76C3B100C8FB9D /* AppDelegate.h */,
+				C10723431D76C3B100C8FB9D /* AppDelegate.m */,
+				C10723451D76C3B100C8FB9D /* ViewController.h */,
+				C10723461D76C3B100C8FB9D /* ViewController.m */,
+				C10723481D76C3B100C8FB9D /* Main.storyboard */,
+				C107234B1D76C3B100C8FB9D /* Assets.xcassets */,
+				C107234D1D76C3B100C8FB9D /* LaunchScreen.storyboard */,
+				C10723501D76C3B100C8FB9D /* Info.plist */,
+				C107233F1D76C3B100C8FB9D /* Supporting Files */,
+			);
+			path = SomkiatBank;
+			sourceTree = "<group>";
+		};
+		C107233F1D76C3B100C8FB9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C10723401D76C3B100C8FB9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C10723581D76C3B100C8FB9D /* SomkiatBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				C10723591D76C3B100C8FB9D /* SomkiatBankTests.m */,
+				C107235B1D76C3B100C8FB9D /* Info.plist */,
+			);
+			path = SomkiatBankTests;
+			sourceTree = "<group>";
+		};
+		C10723631D76C3B100C8FB9D /* SomkiatBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C10723641D76C3B100C8FB9D /* SomkiatBankUITests.m */,
+				C10723661D76C3B100C8FB9D /* Info.plist */,
+			);
+			path = SomkiatBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C107233B1D76C3B100C8FB9D /* SomkiatBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10723691D76C3B100C8FB9D /* Build configuration list for PBXNativeTarget "SomkiatBank" */;
+			buildPhases = (
+				C10723381D76C3B100C8FB9D /* Sources */,
+				C10723391D76C3B100C8FB9D /* Frameworks */,
+				C107233A1D76C3B100C8FB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomkiatBank;
+			productName = SomkiatBank;
+			productReference = C107233C1D76C3B100C8FB9D /* SomkiatBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C10723541D76C3B100C8FB9D /* SomkiatBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107236C1D76C3B100C8FB9D /* Build configuration list for PBXNativeTarget "SomkiatBankTests" */;
+			buildPhases = (
+				C10723511D76C3B100C8FB9D /* Sources */,
+				C10723521D76C3B100C8FB9D /* Frameworks */,
+				C10723531D76C3B100C8FB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C10723571D76C3B100C8FB9D /* PBXTargetDependency */,
+			);
+			name = SomkiatBankTests;
+			productName = SomkiatBankTests;
+			productReference = C10723551D76C3B100C8FB9D /* SomkiatBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C107235F1D76C3B100C8FB9D /* SomkiatBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107236F1D76C3B100C8FB9D /* Build configuration list for PBXNativeTarget "SomkiatBankUITests" */;
+			buildPhases = (
+				C107235C1D76C3B100C8FB9D /* Sources */,
+				C107235D1D76C3B100C8FB9D /* Frameworks */,
+				C107235E1D76C3B100C8FB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C10723621D76C3B100C8FB9D /* PBXTargetDependency */,
+			);
+			name = SomkiatBankUITests;
+			productName = SomkiatBankUITests;
+			productReference = C10723601D76C3B100C8FB9D /* SomkiatBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C10723341D76C3B100C8FB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pete Chuenprayoth";
+				TargetAttributes = {
+					C107233B1D76C3B100C8FB9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C10723541D76C3B100C8FB9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C107233B1D76C3B100C8FB9D;
+					};
+					C107235F1D76C3B100C8FB9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C107233B1D76C3B100C8FB9D;
+					};
+				};
+			};
+			buildConfigurationList = C10723371D76C3B100C8FB9D /* Build configuration list for PBXProject "SomkiatBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C10723331D76C3B100C8FB9D;
+			productRefGroup = C107233D1D76C3B100C8FB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C107233B1D76C3B100C8FB9D /* SomkiatBank */,
+				C10723541D76C3B100C8FB9D /* SomkiatBankTests */,
+				C107235F1D76C3B100C8FB9D /* SomkiatBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C107233A1D76C3B100C8FB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107234F1D76C3B100C8FB9D /* LaunchScreen.storyboard in Resources */,
+				C107234C1D76C3B100C8FB9D /* Assets.xcassets in Resources */,
+				C107234A1D76C3B100C8FB9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10723531D76C3B100C8FB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107235E1D76C3B100C8FB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10723381D76C3B100C8FB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10723471D76C3B100C8FB9D /* ViewController.m in Sources */,
+				C10723441D76C3B100C8FB9D /* AppDelegate.m in Sources */,
+				C10723411D76C3B100C8FB9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10723511D76C3B100C8FB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107235A1D76C3B100C8FB9D /* SomkiatBankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107235C1D76C3B100C8FB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10723651D76C3B100C8FB9D /* SomkiatBankUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C10723571D76C3B100C8FB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107233B1D76C3B100C8FB9D /* SomkiatBank */;
+			targetProxy = C10723561D76C3B100C8FB9D /* PBXContainerItemProxy */;
+		};
+		C10723621D76C3B100C8FB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107233B1D76C3B100C8FB9D /* SomkiatBank */;
+			targetProxy = C10723611D76C3B100C8FB9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C10723481D76C3B100C8FB9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C10723491D76C3B100C8FB9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C107234D1D76C3B100C8FB9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C107234E1D76C3B100C8FB9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C10723671D76C3B100C8FB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C10723681D76C3B100C8FB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C107236A1D76C3B100C8FB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SomkiatBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pete.SomkiatBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C107236B1D76C3B100C8FB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SomkiatBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pete.SomkiatBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C107236D1D76C3B100C8FB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SomkiatBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pete.SomkiatBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SomkiatBank.app/SomkiatBank";
+			};
+			name = Debug;
+		};
+		C107236E1D76C3B100C8FB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SomkiatBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pete.SomkiatBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SomkiatBank.app/SomkiatBank";
+			};
+			name = Release;
+		};
+		C10723701D76C3B100C8FB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SomkiatBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pete.SomkiatBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SomkiatBank;
+			};
+			name = Debug;
+		};
+		C10723711D76C3B100C8FB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SomkiatBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pete.SomkiatBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SomkiatBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10723371D76C3B100C8FB9D /* Build configuration list for PBXProject "SomkiatBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10723671D76C3B100C8FB9D /* Debug */,
+				C10723681D76C3B100C8FB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10723691D76C3B100C8FB9D /* Build configuration list for PBXNativeTarget "SomkiatBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107236A1D76C3B100C8FB9D /* Debug */,
+				C107236B1D76C3B100C8FB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C107236C1D76C3B100C8FB9D /* Build configuration list for PBXNativeTarget "SomkiatBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107236D1D76C3B100C8FB9D /* Debug */,
+				C107236E1D76C3B100C8FB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C107236F1D76C3B100C8FB9D /* Build configuration list for PBXNativeTarget "SomkiatBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10723701D76C3B100C8FB9D /* Debug */,
+				C10723711D76C3B100C8FB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C10723341D76C3B100C8FB9D /* Project object */;
+}
